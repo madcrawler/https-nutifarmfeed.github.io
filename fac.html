@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriFarm Feeds</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(120deg, #9AD0EC, #A1C298);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ffffff;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #52796f;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #354f52;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: url('https://images.unsplash.com/photo-1600692474088-f3bde2d6f4cd?auto=format&fit=crop&w=1470&q=80') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 0;
+    }
+
+    .hero h2, .hero p {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      background: #ffffff;
+      text-align: center;
+    }
+
+    .section:nth-child(even) {
+      background: #f1f6f9;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #3a3a3a;
+    }
+
+    .section p, .section ul {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 1rem 0;
+    }
+
+    .contact {
+      background: #dbece1;
+    }
+
+    .contact p {
+      margin: 0.5rem 0;
+    }
+
+    .contact-details {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #52796f;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NutriFarm Feeds</h1>
+    <p>Premium Nutrition for Hens and Fish</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Feed Their Health, Fuel Their Growth</h2>
+    <p>Trusted by farmers for scientifically-formulated animal feed.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>NutriFarm is committed to supporting sustainable agriculture with animal feed crafted through scientific research, experience, and a passion for animal welfare.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Our Products</h2>
+    <ul>
+      <li><strong>Hen Feed:</strong> High-protein and energy-rich feed designed for maximum egg production and poultry health.</li>
+      <li><strong>Fish Feed:</strong> Highly digestible floating pellets for faster growth and better water quality.</li>
+    </ul>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>📞 Phone:</strong> +91-9876543210</p>
+    <p><strong>📧 Email:</strong> support@nutrifarmfeeds.com</p>
+    <p><strong>📍 Address:</strong> NutriFarm Feeds Pvt. Ltd., Plot No. 45, Agro Industrial Park, Bihta, Bihar - 801103, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 NutriFarm Feeds. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
